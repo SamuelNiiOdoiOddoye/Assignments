@@ -1,0 +1,25 @@
+#include <iostream>
+using namespace std;
+int main(){
+  // Samuel Nii Odoi Oddoye
+  //10987991
+  int num_count;
+  int num_limit;
+  int sum = 2;
+  
+  cout << "type in a number: " << endl;
+  cin >> num_limit;
+  
+  for (num_count = 0 ; num_count<num_limit ; num_count++){
+    
+      if (num_limit % num_count == 0 ; num_count++){
+       // cout << num_count << endl;
+        sum = sum + num_count ;
+        cout << sum << endl;
+      }
+      
+     
+  }
+  
+  return 0;
+}
